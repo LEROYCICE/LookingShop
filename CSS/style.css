@@ -1,0 +1,102 @@
+
+h1{
+    font-family: 'Century Gothic',verdana,sans-serif; 
+}
+
+#article{
+    font-family: 'Century Gothic',verdana,sans-serif;
+    font-weight: 800;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #FFF;
+}
+p,li{
+    padding-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.commander{
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    margin:10px 10px ;
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: #37517e;
+    cursor: pointer;
+}
+.liste-article{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Century Gothic',verdana,sans-serif;
+}
+a{
+    text-decoration: none;
+    color : whitesmoke;
+    
+}
+.table{
+    margin-top: 20px;
+    
+    border-collapse:collapse;
+    margin-left: 30px;
+}
+.table thead th{
+    border-bottom: 2px solid black;
+}
+.table thead th,.table tr td{
+   font-family: 'Open Sans',sans-serif;
+   font-size: 15px;
+}
+.table tr td{
+    padding-left: 10px;
+}
+.table tbody tr{
+    margin-top: 20px;
+    border-bottom:1px solid #cdd0d5;
+}
+
+/* La mise en forme du bouton Voir */
+#show{
+    font-family: "Open Sans", sans-serif;
+    margin:5px 5px ;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #65377e;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/*La partie du fichier Create.php */
+.create form input,.create form textarea{
+    display: block;
+    margin-top: 15px;
+    width: 300px;
+    border-radius: 5px;
+    padding:10px  5px;
+    border-style: solid;
+}
+.create form button[type="submit"]{
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(102, 154, 102);
+    color: #fff;
+    cursor: pointer;
+}
+.create form a{
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(255, 73, 7);
+    color: #fff;
+    cursor: pointer;
+}
